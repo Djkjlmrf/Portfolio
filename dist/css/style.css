@@ -86,6 +86,20 @@ button {
 .header__logo {
   padding: 66px 15px 0 57px;
 }
+@media (max-width: 767.98px) {
+  .header__logo {
+    padding: 30px 15px 0 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .header__logo {
+    padding: 15px 15px 0 10px;
+  }
+}
+
+.header__logo img {
+  width: 100px;
+}
 
 .header__menu {
   flex: 1 1 auto;
@@ -93,13 +107,34 @@ button {
   justify-content: flex-end;
   padding: 72px 67px 0 0;
 }
+@media (max-width: 767.98px) {
+  .header__menu {
+    padding: 35px 35px 0 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .header__menu {
+    padding: 8px 10px 0 0;
+  }
+}
 
 .menu__list {
   display: flex;
 }
+@media (max-width: 575.98px) {
+  .menu__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
 .menu__item {
   margin: 0 20px 0 0;
+}
+@media (max-width: 575.98px) {
+  .menu__item {
+    margin: 10px 15px 0 0;
+  }
 }
 
 .menu__item:last-child {
@@ -112,6 +147,16 @@ button {
   line-height: 133%;
   color: #808080;
 }
+@media (max-width: 767.98px) {
+  .menu__link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575.98px) {
+  .menu__link {
+    font-size: 12px;
+  }
+}
 
 .menu__link-black {
   color: #000;
@@ -123,12 +168,47 @@ button {
   color: #333333;
   padding: 146px 0 0 89px;
 }
+@media (max-width: 991.98px) {
+  .hello__title {
+    font-size: 160px;
+    padding-top: 110px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hello__title {
+    font-size: 110px;
+    padding: 70px 0 0 70px;
+  }
+}
+@media (max-width: 575.98px) {
+  .hello__title {
+    font-size: 55px;
+    padding: 30px 0 0 20px;
+  }
+}
 
 .hello__subtittle {
   font-size: 183px;
   line-height: 96%;
   color: #333333;
   padding-left: 89px;
+}
+@media (max-width: 991.98px) {
+  .hello__subtittle {
+    font-size: 160px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hello__subtittle {
+    font-size: 110px;
+    padding-left: 70px;
+  }
+}
+@media (max-width: 575.98px) {
+  .hello__subtittle {
+    font-size: 55px;
+    padding-left: 20px;
+  }
 }
 
 .hello__text {
@@ -137,9 +217,29 @@ button {
   width: 500px;
   padding: 80px 0 0 89px;
 }
+@media (max-width: 767.98px) {
+  .hello__text {
+    padding: 40px 0 0 70px;
+  }
+}
+@media (max-width: 575.98px) {
+  .hello__text {
+    padding: 20px 0 0 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .hello__text {
+    width: 300px;
+    line-height: 150%;
+  }
+}
 
 .hello__image {
   text-align: center;
+}
+
+.hello__image img {
+  height: 20px;
 }
 
 .tittle-font {
@@ -156,12 +256,50 @@ button {
   background: #000000BF;
   padding: 280px 0;
 }
+@media (max-width: 1199.98px) {
+  .block__tittle {
+    padding: 200px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .block__tittle {
+    padding: 130px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .block__tittle {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .block__tittle {
+    padding: 45px 0;
+  }
+}
 
 .tittle {
   font-family: "palatinolinotype_roman";
   font-size: 69px;
   line-height: 87%;
   color: #808080;
+}
+@media (max-width: 991.98px) {
+  .tittle {
+    font-size: 60px;
+    line-height: 75%;
+  }
+}
+@media (max-width: 767.98px) {
+  .tittle {
+    font-size: 40px;
+    line-height: 65%;
+  }
+}
+@media (max-width: 575.98px) {
+  .tittle {
+    font-size: 25px;
+    line-height: 45%;
+  }
 }
 
 .subtitle {
@@ -171,6 +309,25 @@ button {
   color: #FFFFFF;
   max-width: 315px;
 }
+@media (max-width: 991.98px) {
+  .subtitle {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .subtitle {
+    font-size: 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  .subtitle {
+    padding-top: 15px;
+    font-size: 16px;
+    max-width: 112px;
+  }
+}
 
 .tittle__text {
   padding: 29px 0 0 0;
@@ -179,12 +336,40 @@ button {
   color: #7A7A7A;
   max-width: 315px;
 }
+@media (max-width: 991.98px) {
+  .tittle__text {
+    padding-top: 15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .tittle__text {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+@media (max-width: 575.98px) {
+  .tittle__text {
+    max-width: 112px;
+    font-size: 12px;
+    line-height: 90%;
+  }
+}
 
 .button {
   padding: 20px 0 0 0;
   font-size: 15px;
   line-height: 133%;
   color: #ffffff;
+}
+@media (max-width: 991.98px) {
+  .button {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 575.98px) {
+  .button {
+    font-size: 12px;
+  }
 }
 
 .button:hover {
@@ -200,18 +385,54 @@ button {
   flex-direction: column;
   padding-left: 72px;
 }
+@media (max-width: 767.98px) {
+  .footer__container {
+    padding-left: 45px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer__container {
+    padding-left: 10px;
+  }
+}
 
 .footer__logo {
   padding: 90px 0 0 0;
+}
+@media (max-width: 767.98px) {
+  .footer__logo {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer__logo {
+    padding-top: 30px;
+  }
 }
 
 .portfolio {
   width: 147px;
   height: 25px;
 }
+@media (max-width: 575.98px) {
+  .portfolio {
+    width: 100px;
+    height: 16px;
+  }
+}
 
 .footer__link {
   padding-top: 50px;
+}
+@media (max-width: 767.98px) {
+  .footer__link {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer__link {
+    padding-top: 20px;
+  }
 }
 
 .menu__link:hover {
@@ -221,11 +442,26 @@ button {
 .footer__text {
   padding-top: 45px;
 }
+@media (max-width: 767.98px) {
+  .footer__text {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer__text {
+    padding-top: 30px;
+  }
+}
 
 .text {
   font-size: 13px;
   line-height: 185%;
   color: #B8B8B8;
+}
+@media (max-width: 767.98px) {
+  .text {
+    font-size: 12px;
+  }
 }
 
 @font-face {
@@ -257,21 +493,20 @@ body {
 }
 
 .sinder {
-  background-size: contain;
+  background-size: 100% 100%;
+  background-position: center center;
   background-image: url("../img/nn.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
 }
 
-.igotchu__block {
-  background-size: cover;
+.igotchu {
   background-image: url("../img/2.jpg");
-  height: 800px;
+  background-size: 100% 100%;
+  background-position: center center;
 }
 
-.earth__block {
-  background-size: cover;
+.earth {
   background-image: url("../img/3.jpg");
-  height: 800px;
+  background-size: 100% 100%;
+  background-position: center center;
 }
